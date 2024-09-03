@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img>
+    <script>
+        let mydiv=document.createElement("div")
+   mydiv.style.height="500px"
+   mydiv.style.width="300px"
+   mydiv.style.border="2px solid black"
+   mydiv.style.backgroundImage="url(./bgcard.jpeg)"
+   mydiv.style.backgroundSize="cover"
+   mydiv.style.borderRadius="20% 0 20% 0"
+   document.body.appendChild(mydiv) 
+
+
+   
+let img=document.getElementsByTagName("img")
+    img[0].setAttribute("src","./virat1.jpg")
+    img[0].setAttribute("height","150")
+    img[0].setAttribute("width","150")
+   img[0].style.border=("2px solid")
+   img[0].style.marginLeft="70px"
+   img[0].style.marginTop="100px"
+   img[0].style.display="block"
+   img[0].style.borderRadius="30% "
+   mydiv.appendChild(img[0])
+   
+   let title=document.createElement("p")
+   title.innerHTML="NAME:VIRAT KOHLI"
+//    title.innerHTML="ROLE:CRICKETER"
+title.style.color="orange"
+title.style.marginLeft="60px"
+   mydiv.appendChild(title)
+
+//    let title=document.createElement("p1")
+//    title.innerHTML="ROLE:CRICKETER"
+    let title1=document.createElement("p")
+    title1.innerHTML="ROLE:CRICKETER"
+    title1.style.color="orange"
+    title1.style.marginLeft="70px"
+    mydiv.appendChild(title1)
+
+    let title2=document.createElement("p")
+    title2.innerHTML="COUNTRY:INDIA"
+    title2.style.color="orange"
+    title2.style.marginLeft="70px"
+    mydiv.appendChild(title2)
+
+
+   
+    
+    
+
+    </script>
+    
+</body>
+</html>
